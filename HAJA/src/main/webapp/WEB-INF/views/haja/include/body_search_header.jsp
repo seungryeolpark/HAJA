@@ -128,8 +128,11 @@
 						
 						var output = "";
 						for (var i in result.list) {
+							var messagetext = result.list[i].text;
+							if (messagetext.length > 25) messagetext = messagetext.substr(0, 25)+".....";
+							
 							output += "<div class='mess__item'>";
-							output += "<div class='content'><p>"+result.list[i].text+"</p>";
+							output += "<div class='content'><p>"+messagetext+"</p>";
 							output += "<span class='date'>"+result.list[i].send+"&nbsp;&nbsp;"+changeDate(result.list[i].regdate)+"</span></div></div>";
 						}
 						

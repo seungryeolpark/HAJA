@@ -126,8 +126,8 @@
 						
 						var output = "";
 						for (var i in result.list) {
-							var text = result.list[i].text;
-							var messagetext = text.substr(0, 25)+".....";
+							var messagetext = result.list[i].text;
+							if (messagetext.length > 25) messagetext = messagetext.substr(0, 25)+".....";
 							
 							output += "<div class='mess__item'>";
 							output += "<div class='content'><p>"+messagetext+"</p>";
