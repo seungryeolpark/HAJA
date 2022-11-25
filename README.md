@@ -1,4 +1,4 @@
-# :octocat:HAJA
+# :octocatHAJA
 ![1](https://user-images.githubusercontent.com/48073115/204030113-b852b4b2-ffcb-4375-8819-f88257fd4782.png)
 
 # 📋작업환경
